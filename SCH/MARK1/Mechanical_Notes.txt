@@ -1,0 +1,21 @@
+**** Mechanical Notes **********************************************************
+
+*** PCB Fabrication ***
+       - Will intially design to meet fabrication spec of advanced cicruits $66 4 layer special.
+         This will allow for cheapest prototyping and end manufacturing costs
+              - trace/widtch = 6/6mils , minimum thru = 15mil
+              - min annular ring: vias=10mil , component holes=15mils
+              - see link for further info: http://www.4pcb.com/index.php?load=content&page_id=131
+
+
+
+*** PMOD mechanical requirements ***
+   - Need to find out if I can get the design standards from digilent on the mechanical
+   characteristics of PMODS.
+   - On my nexys3 board the 4 onboard pmods are spaced .400" hole to hole from each pmod
+
+
+*** Arduino ***
+    - Not sure what mechanical specs are required?
+    - would love to get rid of the mounting holes  on the arduino header if possible
+

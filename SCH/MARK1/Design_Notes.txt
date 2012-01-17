@@ -31,7 +31,7 @@
     b) Similar to Embedd
     c) Drag and drop files for programming
     d) Non-brickable
-    e) D2A <-> A2D
+    e) D2A <-> A2D => adding the discrete pmod
     f) possibly add peripherals to follow an existing text and examples?  such as: FPGA Prototyping By Verilog Examples: Xilinx Spartan-3 Version
     I have gone through most of the book, was awesome.
 
@@ -42,7 +42,11 @@
     - level shifters for the arduino header
     - jtag fpga header
     - lpc programming header
-    - 4 push buttons (shared with fpga?  2 to micro 2 to fpga?)
+
+    **** base EDU development
+         - 4 push buttons (shared with fpga?  2 to micro 2 to fpga?)
+         - 8 dip switch ( to fpga)
+         - leds         ( how many )
 
 *** Prototyping/learning addon functionality -  use 2 bottom or 3 side pmod header to
      extend prototyping learning capability (8 signals/ pmod header)
