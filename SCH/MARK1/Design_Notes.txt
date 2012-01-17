@@ -6,8 +6,8 @@
     2) spartan6 or spartan3a?  See the cost differenc in the dropbox excel mark1 parts file.
        $10.91 vs 7.02 between the 144 spartan3-50 and the lx4
     3)final functionality for mark1 use?  I like the idea of making usable in
-    three different cases: independent dev board, slave arduino board, learning fpga/mcu board.
-    See below for more details.
+    three different cases: independent dev board, slave arduino board, learning fpga/mcu board (EDU).
+    See notes below for more details.
     4) upon deciding on final board functionality - decide on final peripherals for the different
     board sections: base,audio Pmod, learning, or some other combination.
     5) What are the thru holes on the arduino header?  Are they required?  They take up
@@ -42,8 +42,7 @@
     - level shifters for the arduino header
     - jtag fpga header
     - lpc programming header
-
-    **** base EDU development
+    ** base EDU development
          - 4 push buttons (shared with fpga?  2 to micro 2 to fpga?)
          - 8 dip switch ( to fpga)
          - leds         ( how many )
