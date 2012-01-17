@@ -7,6 +7,11 @@
               - min annular ring: vias=10mil , component holes=15mils
               - see link for further info: http://www.4pcb.com/index.php?load=content&page_id=131
 
+*** Board Size ***
+    - Would like to minimize size while keeping wanted features.
+    - Would like to keep size relatively close to other arduino shields for compatibility of
+    existing enclosured, etc.
+    - standard size of existing arduino shields?
 
 
 *** PMOD mechanical requirements ***
