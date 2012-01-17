@@ -1,56 +1,18 @@
 **** Design Notes *************************************************************
 
-*** Design Goals ***
-    -
+*** Questions that need resolved ***
+    1) package to use, 100/144 tqfp.  Based on minimal cost difference between the two
+    I would opt to go with the 144 pin version.
+    2) spartan6 or spartan3a?  See the cost differenc in the dropbox excel mark1 parts file.
+       $10.91 vs 7.02 between the 144 spartan3-50 and the lx4
+    3)final functionality for mark1 use?  I like the idea of making usable in
+    three different cases: independent dev board, slave arduino board, learning fpga/mcu board.
+    See below for more details.
+    4) upon deciding on final board functionality - decide on final peripherals for the different
+    board sections: base,audio Pmod, learning, or some other combination.
+    5) What are the thru holes on the arduino header?  Are they required?  They take up
+    quite a bit of prime real estate. durrrr, arduino...
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- **** Design Notes *************************************************************
 
 
  *** Design Goals ***
@@ -64,10 +26,14 @@
         a.2) Slave mode would allow the FPGA/MCU to be an dependent slave device shield.
         The idea would allow the board to be similar other arduino shields.  Commincation
         from the arduino master board would take place through the spi/i2c pins on the shield interface pins.
+        a.3) learning mode would allow for extension of a learning module that has peripherals used on fpga learning boards ( sseg dispaly, 8 dip sw, etc).
+        A separate module could designed to mate with either 2 or 3 pmod headers to the base mark1 board.
     b) Similar to Embedd
     c) Drag and drop files for programming
     d) Non-brickable
     e) D2A <-> A2D
+    f) possibly add peripherals to follow an existing text and examples?  such as: FPGA Prototyping By Verilog Examples: Xilinx Spartan-3 Version
+    I have gone through most of the book, was awesome.
 
 
 *** Base functionality for the base Mark1 board
