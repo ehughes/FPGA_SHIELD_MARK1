@@ -1,0 +1,109 @@
+**** Design Notes *************************************************************
+
+*** Design Goals ***
+    -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ **** Design Notes *************************************************************
+
+
+ *** Design Goals ***
+    a) Dual use as an arduino shield or as a standalone development board.   The board
+    would operate as an arduino shield (slave) or standalone mode in which it would
+    run fully independently and be compatible with other standard development modele
+    interfaces including arduino shields, PMODs, any others including microchip pictailplus
+    PIMs, etc.
+        a.1) Master mode would allow the mcu/fpga to operate as standalone (master)
+        development board allowing attachment to as many external peripherals as possible.
+        a.2) Slave mode would allow the FPGA/MCU to be an dependent slave device shield.
+        The idea would allow the board to be similar other arduino shields.  Commincation
+        from the arduino master board would take place through the spi/i2c pins on the shield interface pins.
+    b) Similar to Embedd
+    c) Drag and drop files for programming
+    d) Non-brickable
+    e) D2A <-> A2D
+
+
+*** Base functionality for the base Mark1 board
+    - flash for micro to hold fpga bitstream for gui reprogramming
+    - flash for fpga to self load bitstream when used in independent mode
+    - level shifters for the arduino header
+    - jtag fpga header
+    - lpc programming header
+    - 4 push buttons (shared with fpga?  2 to micro 2 to fpga?)
+
+*** Prototyping/learning addon functionality -  use 2 bottom or 3 side pmod header to
+     extend prototyping learning capability (8 signals/ pmod header)
+    - quad seven segment display   (8 signals)
+    - 8 dip swith  (8 signals)
+    - 8 led circle (8 signals)  (or put this on the base board?)
+
+*** audio processing PMOD board
+    - input/output processing of audio signals.  Will communicate through the pmod header to the lpc micro
+
+
+
+*** Notes ***
+** 01/16/2012 **
+   **** Thinking out loud ****
+   1) Creating separate external modules for the audio processing/prototyping/learning modules
+   would allow for a base FPGA/MCU board to could be used in multiple applications (Master, Arduino Slave, Prototype learning board).
+   The auxillary boards could be fabricated using cheaper processes (2 layer board) while
+   allowing more end user functionality for the FPGA/MCU board.
+      1.1) Create a seperate standalone PMOD board for the audio processing
+      that is currently on the board.  This would allow room for 2 extra PMODS to be
+      attached to the mcu.  This would give maximum user options for development and final
+      application of board.
+      1.2 Create a separate extension board for the prototyping/learning
+      parts currently at the top of the board (SSEG display, dip switch) anything else.
+      The extension could be a double pmod or a standard .100 90 degree header.  a double pmod header
+      would allow for yet more pmods to be used with the fpga/mcu board when it is not being used for
+      prototyping.
+   -
+
