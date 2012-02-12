@@ -48,7 +48,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document2]
-DocumentPath=LOGIC_FPGA_S3A.SchDoc
+DocumentPath=LOGIC_FPGA.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -64,7 +64,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document3]
-DocumentPath=FPGA_POWER_AND_CONFIGURATION_S3A.SchDoc
+DocumentPath=FPGA_POWER_AND_CONFIGURATION.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
