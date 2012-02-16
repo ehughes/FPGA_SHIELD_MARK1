@@ -272,7 +272,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document16]
-DocumentPath=FPGA_SHIELD_MARK1.IntLib
+DocumentPath=Parts_Comparison.txt
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

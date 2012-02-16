@@ -8,10 +8,10 @@
     3)final functionality for mark1 use?  I like the idea of making usable in
     three different cases: independent dev board, slave arduino board, learning fpga/mcu board (EDU).
     See notes below for more details.
-    4) upon deciding on final board functionality - decide on final peripherals for the different
-    board sections: base,audio Pmod, learning, or some other combination.
-    5) What are the thru holes on the arduino header?  Are they required?  They take up
-    quite a bit of prime real estate. durrrr, arduino...
+        - Sounds like we are narrowing in on basic functionality with some "onboard learning periphs" and
+        the option to use as an Arduino shield, or to use arduinio shields
+    4) Additional functionality to add?
+        - possibly add anti aliasing filters for a couple ADC inputs.  
 
 
 
