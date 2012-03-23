@@ -76,3 +76,14 @@
       prototyping.
    -
 
+
+**** Cost of pmods that would be used for EDU board - Would like it follow the
+- 2 char SSEG: 14.99
+- 4 slide SW:    9.99
+- 4 Push buttons: 14.99
+- 4 red leds:     9.99
+* $50 just for all of this stuff
+- VGA: None available
+
+
+
