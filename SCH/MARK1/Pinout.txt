@@ -1,0 +1,59 @@
+**** Pinouts *******************************************************************
+
+** Pinout by function for FPGA
+* Configuration pins:
+	- JTAG/ Programming/Flash: 16
+    - Power: 21 pins
+    - Gnd: 13
+    Total: 16+21+13 = 50
+
+* Arduinio (6 Analog - 16 Digital)
+	-  16 pins?	  Leave some for MCU to communicate with arudino?  Can it use the analgo lines to communicate on?
+
+* PMODs
+  - 6 PMODs : 48 pins
+
+* LEDs
+	- 1 x LED circle  (8 leds)
+
+* PB Switches
+   - 4 push button switches (FPGA)
+   - 1 reset (MCU) shared with fpga?
+
+* DIP switch
+   - 4  buttons DIP switch (FPGA)
+
+* Communication FPGA - MCU
+   - 10x pin parallel interface
+   Total: 1
+
+* Other
+       - 1x Clk out from MCU
+       Total: 1
+
+
+	Total pins FPGA:
+		Power: 50
+		PMOD: 48
+		Arduino: 16
+		LED: 8
+		PB switch: 4:
+		DIP SW: 4
+		Com-MCU: 10
+		Other: 1
+
+		Total:  141
+
+
+ ** Pinout by function for MCU
+ 	* 1: PMODs
+    Total:
+
+    * Communication FPGA - MCU
+       - 10x pin parallel interface
+       Total: 10
+
+    * Other
+      - 1x Status LED
+      - 1x Reset swtich
+      Total: 2
