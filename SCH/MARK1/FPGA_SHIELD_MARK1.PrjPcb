@@ -112,7 +112,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document6]
-DocumentPath=FPGA_SHIELD_MARK1.PcbDoc
+DocumentPath=FPGA_SHIELD_MARK1_Single_Side.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
