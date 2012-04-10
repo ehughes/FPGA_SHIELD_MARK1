@@ -24,3 +24,7 @@
     - Not sure what mechanical specs are required?
     - would love to get rid of the mounting holes  on the arduino header if possible
 
+
+*** Footprints ***
+    - Modified the usb back side thru holes so that data lines can escape from the back side
+      - need to check to make sure that the part fits ok and does not conflict with the assembly process.
