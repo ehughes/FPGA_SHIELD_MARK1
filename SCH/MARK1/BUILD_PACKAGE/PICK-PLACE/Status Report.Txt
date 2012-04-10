@@ -1,0 +1,15 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 7:42:00 PM On 4/10/2012
+
+Output: PICK-PLACE
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [FPGA_SHIELD_MARK1_Single_Side.PcbDoc]
+   Generated File[Pick Place for FPGA_SHIELD_MARK1_Single_Side.txt]
+   Generated File[Pick Place for FPGA_SHIELD_MARK1_Single_Side.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 7:42:01 PM On 4/10/2012

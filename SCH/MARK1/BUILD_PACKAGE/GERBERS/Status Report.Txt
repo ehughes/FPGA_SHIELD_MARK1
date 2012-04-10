@@ -1,0 +1,12 @@
+Output: GERBERS
+Type  : NC Drill
+From  : PCB Document [FPGA_SHIELD_MARK1_Single_Side.PcbDoc]
+   Generated File[FPGA_SHIELD_MARK1_Single_Side.TXT]
+   Generated File[FPGA_SHIELD_MARK1_Single_Side.LDP]
+   Generated File[FPGA_SHIELD_MARK1_Single_Side.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 7:42:22 PM On 4/10/2012
