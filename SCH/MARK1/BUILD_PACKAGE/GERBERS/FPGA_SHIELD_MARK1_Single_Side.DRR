@@ -1,0 +1,22 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: FPGA_SHIELD_MARK1_Single_Side.PcbDoc   4/10/2012  7:42:22 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : FPGA_SHIELD_MARK1_Single_Side.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        12.99mil (0.32995mm)     Round          4                0.14 Inch (3.60 mm)
+T2        15mil (0.381mm)          Round          51               6.16 Inch (156.52 mm)
+T3        35.43mil (0.89992mm)     Round          32               5.06 Inch (128.52 mm)
+T4        39.37mil (1mm)           Round          2                0.39 Inch (10.00 mm)
+T5        41.34mil (1.05004mm)     Round          4                1.26 Inch (31.90 mm)
+T6        42mil (1.0668mm)         Round          72               10.30 Inch (261.72 mm)
+T7        47.24mil (1.1999mm)      Round          6                1.68 Inch (42.78 mm)
+T8        38mil (0.9652mm)         Round          2         NPTH   0.15 Inch (3.81 mm)
+T9        126mil (3.2004mm)        Round          4         NPTH   5.25 Inch (133.29 mm)
+---------------------------------------------------------------------------
+Totals                                            177              30.40 Inch (772.14 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00
