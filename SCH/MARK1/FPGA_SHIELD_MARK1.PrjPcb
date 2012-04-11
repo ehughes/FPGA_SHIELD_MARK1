@@ -287,17 +287,33 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document17]
+DocumentPath=Layout_Notes.txt
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [Parameter1]
-Name=PCB_VERSION
-Value=a
+Name=Engineer
+Value=M. Jones
 
 [Parameter2]
 Name=PCB_TITLE
 Value=FPGA Mark 1
 
 [Parameter3]
-Name=Engineer
-Value=M. Jones
+Name=PCB_VERSION
+Value=a
 
 [PCBConfiguration1]
 ReleaseItemId=
@@ -910,16 +926,6 @@ OutputName1=Export STEP
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-OutputType2=AutoCAD dwg/dxf PCB
-OutputName2=AutoCAD dwg/dxf File PCB
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=AutoCAD dwg/dxf Schematic
-OutputName3=AutoCAD dwg/dxf File Schematic
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [Modification Levels]
 Type1=1
@@ -939,8 +945,8 @@ Type14=1
 Type15=1
 Type16=1
 Type17=1
-Type18=0
-Type19=0
+Type18=1
+Type19=1
 Type20=1
 Type21=1
 Type22=1
