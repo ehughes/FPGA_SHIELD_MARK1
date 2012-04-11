@@ -1,0 +1,6 @@
+**** Layout Notes *****
+
+- Not enough IO.  Going to have to make considerations to eliminate some io
+
+      - I need to run the MCU io to arduino oops.
+      - put the leds in parallel.  Need to ensure that LED brightness will be close by running int this way
