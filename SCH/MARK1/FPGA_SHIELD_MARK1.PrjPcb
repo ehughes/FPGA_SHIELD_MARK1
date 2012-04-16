@@ -308,16 +308,16 @@ DocumentPath=FPGA_SHIELD_MARK1_Single_Side 4-16-2012 8-17-36 AM.WAS
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Engineer
-Value=M. Jones
+Name=PCB_VERSION
+Value=a
 
 [Parameter2]
 Name=PCB_TITLE
 Value=FPGA Mark 1
 
 [Parameter3]
-Name=PCB_VERSION
-Value=a
+Name=Engineer
+Value=M. Jones
 
 [PCBConfiguration1]
 ReleaseItemId=
