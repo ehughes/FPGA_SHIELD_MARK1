@@ -303,6 +303,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[GeneratedDocument1]
+DocumentPath=FPGA_SHIELD_MARK1_Single_Side 4-16-2012 8-17-36 AM.WAS
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Engineer
 Value=M. Jones
@@ -926,16 +930,6 @@ OutputName1=Export STEP
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-OutputType2=AutoCAD dwg/dxf PCB
-OutputName2=AutoCAD dwg/dxf File PCB
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=AutoCAD dwg/dxf Schematic
-OutputName3=AutoCAD dwg/dxf File Schematic
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [Modification Levels]
 Type1=1
