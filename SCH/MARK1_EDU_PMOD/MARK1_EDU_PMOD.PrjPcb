@@ -63,6 +63,14 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[GeneratedDocument1]
+DocumentPath=MARK1_EDU_PMOD 5-21-2012 9-26-58 AM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=MARK1_EDU_PMOD 5-21-2012 9-28-08 AM.WAS
+DItemRevisionGUID=
+
 [PCBConfiguration1]
 ReleaseItemId=
 CurrentRevision=
