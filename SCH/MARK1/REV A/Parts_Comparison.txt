@@ -1,0 +1,12 @@
+*** Parts Comparison ***********************************************************
+
+** FPGA
+    lowest cost fpga    package     CLB's  cost 1x
+    XC3S50A-4VQG100C    100-TQFP    1584     $6.12
+    XC3S50A-4TQ144C     144-TQFP    1584     $7.02
+    XC6SLX4-2TQG144C    144-TQFP    3840     $10.91
+
+
+    XA3S200-4TQG144Q    144-TQFP    4320    $17.15
+    XC6SLX9-2TQG144C    144-TQFP    9152    $15.69
+

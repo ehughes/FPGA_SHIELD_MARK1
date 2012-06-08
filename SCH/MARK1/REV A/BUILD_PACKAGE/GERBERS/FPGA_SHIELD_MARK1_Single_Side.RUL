@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\eli\BUSINESS\CLIENT_DATA\WAVENUMBER\FPGA_SHIELD_MARK_1\SCH\MARK1\FPGA_SHIELD_MARK1_Single_Side.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Poly_TO_ALL|Scope=Board|Minimum=12.00
+RuleKind=SolderMaskExpansion|RuleName=vias|Scope=Board|Minimum=-100.00
+RuleKind=Clearance|RuleName=POLY_TO_POLY|Scope=Board|Minimum=15.00

@@ -1,0 +1,89 @@
+**** Design Notes *************************************************************
+
+*** Questions that need resolved ***
+    1) package to use, 100/144 tqfp.  Based on minimal cost difference between the two
+    I would opt to go with the 144 pin version.
+    2) spartan6 or spartan3a?  See the cost differenc in the dropbox excel mark1 parts file.
+       $10.91 vs 7.02 between the 144 spartan3-50 and the lx4
+    3)final functionality for mark1 use?  I like the idea of making usable in
+    three different cases: independent dev board, slave arduino board, learning fpga/mcu board (EDU).
+    See notes below for more details.
+        - Sounds like we are narrowing in on basic functionality with some "onboard learning periphs" and
+        the option to use as an Arduino shield, or to use arduinio shields
+    4) Additional functionality to add?
+        - possibly add anti aliasing filters for a couple ADC inputs.  
+
+
+
+ *** Design Goals ***
+    a) Dual use as an arduino shield or as a standalone development board.   The board
+    would operate as an arduino shield (slave) or standalone mode in which it would
+    run fully independently and be compatible with other standard development modele
+    interfaces including arduino shields, PMODs, any others including microchip pictailplus
+    PIMs, etc.
+        a.1) Master mode would allow the mcu/fpga to operate as standalone (master)
+        development board allowing attachment to as many external peripherals as possible.
+        a.2) Slave mode would allow the FPGA/MCU to be an dependent slave device shield.
+        The idea would allow the board to be similar other arduino shields.  Commincation
+        from the arduino master board would take place through the spi/i2c pins on the shield interface pins.
+        a.3) learning mode would allow for extension of a learning module that has peripherals used on fpga learning boards ( sseg dispaly, 8 dip sw, etc).
+        A separate module could designed to mate with either 2 or 3 pmod headers to the base mark1 board.
+    b) Similar to Embedd
+    c) Drag and drop files for programming
+    d) Non-brickable
+    e) D2A <-> A2D => adding the discrete pmod
+    f) possibly add peripherals to follow an existing text and examples?  such as: FPGA Prototyping By Verilog Examples: Xilinx Spartan-3 Version
+    I have gone through most of the book, was awesome.
+
+
+*** Base functionality for the base Mark1 board
+    - flash for micro to hold fpga bitstream for gui reprogramming
+    - flash for fpga to self load bitstream when used in independent mode
+    - level shifters for the arduino header
+    - jtag fpga header
+    - lpc programming header
+    ** base EDU development
+         - 4 push buttons (shared with fpga?  2 to micro 2 to fpga?)
+         - 8 dip switch ( to fpga)
+         - leds         ( how many )
+
+*** Prototyping/learning addon functionality -  use 2 bottom or 3 side pmod header to
+     extend prototyping learning capability (8 signals/ pmod header)
+    - quad seven segment display   (8 signals)
+    - 8 dip swith  (8 signals)
+    - 8 led circle (8 signals)  (or put this on the base board?)
+
+*** audio processing PMOD board
+    - input/output processing of audio signals.  Will communicate through the pmod header to the lpc micro
+
+
+
+*** Notes ***
+** 01/16/2012 **
+   **** Thinking out loud ****
+   1) Creating separate external modules for the audio processing/prototyping/learning modules
+   would allow for a base FPGA/MCU board to could be used in multiple applications (Master, Arduino Slave, Prototype learning board).
+   The auxillary boards could be fabricated using cheaper processes (2 layer board) while
+   allowing more end user functionality for the FPGA/MCU board.
+      1.1) Create a seperate standalone PMOD board for the audio processing
+      that is currently on the board.  This would allow room for 2 extra PMODS to be
+      attached to the mcu.  This would give maximum user options for development and final
+      application of board.
+      1.2 Create a separate extension board for the prototyping/learning
+      parts currently at the top of the board (SSEG display, dip switch) anything else.
+      The extension could be a double pmod or a standard .100 90 degree header.  a double pmod header
+      would allow for yet more pmods to be used with the fpga/mcu board when it is not being used for
+      prototyping.
+   -
+
+
+**** Cost of pmods that would be used for EDU board - Would like it follow the
+- 2 char SSEG: 14.99
+- 4 slide SW:    9.99
+- 4 Push buttons: 14.99
+- 4 red leds:     9.99
+* $50 just for all of this stuff
+- VGA: None available
+
+
+

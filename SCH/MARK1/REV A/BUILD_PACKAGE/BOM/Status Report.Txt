@@ -1,0 +1,10 @@
+Output: Assembly BOM - PMODS
+Type  : BOM
+From  : Variant [PMODS] of Project [FPGA_SHIELD_MARK1.PrjPcb]
+   Generated File[Assembly BOM - PMODS-FPGA_SHIELD_MARK1(PMODS).xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 7:56:42 PM On 6/7/2012
