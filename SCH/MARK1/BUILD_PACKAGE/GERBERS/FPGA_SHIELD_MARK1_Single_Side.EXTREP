@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: FPGA_SHIELD_MARK1_Single_Side.GBR   4/10/2012  7:42:21 PM
+Gerber File Extension Report For: FPGA_SHIELD_MARK1_Single_Side.GBR   6/7/2012  10:04:24 AM
 ------------------------------------------------------------------------------------------
 
 
@@ -7,6 +7,8 @@ Gerber File Extension Report For: FPGA_SHIELD_MARK1_Single_Side.GBR   4/10/2012 
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
+.G1                 VCC                                     
+.G2                 GND                                     
 .GBL                Bottom Layer                            
 .GTO                Top Overlay                             
 .GTP                Top Paste                               
