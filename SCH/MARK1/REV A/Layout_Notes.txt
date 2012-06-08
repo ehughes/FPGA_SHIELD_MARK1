@@ -1,0 +1,18 @@
+**** Layout Notes *****
+
+- Not enough IO.  Going to have to make considerations to eliminate some io
+
+      - I need to run the MCU io to arduino oops.
+      - put the leds in parallel.  Need to ensure that LED brightness will be close by running int this way
+
+
+*** Changes:
+    - Added diode to power the arduino header or master.
+
+
+**** Things to check:
+     - header for arduino,  does not match the footprint board.  Double check our header
+     - Footprint for the diodes, 2 different footprints being used.
+     - FPGA clk from mcu connected to one of the pushbuttons?
+
+

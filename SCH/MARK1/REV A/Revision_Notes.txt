@@ -1,0 +1,7 @@
+**** Revision_Notes *****
+
+*** RA.1
+
+    ERRATA:
+      -  R18 needs tomb stoned a pulled to +3.3v (mj fixed)
+      - PB6 needs attached to GND, not 3v3  (mj fixed)
