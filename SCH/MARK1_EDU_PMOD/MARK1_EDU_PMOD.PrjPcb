@@ -63,30 +63,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document3]
-DocumentPath=Job1.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[GeneratedDocument1]
-DocumentPath=MARK1_EDU_PMOD 5-21-2012 9-26-58 AM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=MARK1_EDU_PMOD 5-21-2012 9-28-08 AM.WAS
-DItemRevisionGUID=
-
 [PCBConfiguration1]
 ReleaseItemId=
 CurrentRevision=
