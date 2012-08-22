@@ -1,0 +1,23 @@
+**** Arduino Program MOD *****
+
+
+* Modding the existing Mark1 board to be programmed from an arduino compatible board
+  In this case the Freedom board which is arduino pin compatible.
+
+  - Rerouting the FPGA signals lines to line on the freedom board.
+
+
+  * Freedom board pins
+    PORT  - FUNCTION - HEADER FRDM  - FUNCTION -  # MARK1 PIN
+    - PD1 = SPCLK = D13 =     P1-12    = CCLK    = D6 =
+    - PD3 = MOSI =  D12 =     P1-10    = DATA    = D5
+    - PD4 = GPIO =  D2 =      P2-6     = INITB   = C3
+    - PD5 = GPIO =  D9 =      P1-4     = DONE    = D2
+
+   * Solder points used
+   D6 = clk = flashchip Pin6           = Translator1 Pin17
+   D5 = data = flashchip Pin 2         = Translator1 Pin16
+   D2 = Done = LED Done anode (Top)    = Translator1 Pin13
+   C3 = InitB = R33 Pin1 (Top)         = Translator2 Pin13
+
+   Lifting translation IC pin on the taken over programming pins
